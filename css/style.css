@@ -1,17 +1,14 @@
 .jumbotron {
-    padding: 0;
-background-image: url(../images/02-hero-bg.jpg);
-background-repeat: no-repeat;
-max-width: fit-content;
-color: rgb(89, 42, 165);
-font-weight: 300;
-font-style: oblique;
+  padding: 0;
+  background-image: url(../images/02-hero-bg.jpg);
+  background-repeat: no-repeat;
+  max-width: fit-content;
+  color: rgb(89, 42, 165);
+  font-weight: 300;
+  font-style: oblique;
 }
 
 h2 {
-align-items: center;
-color: navy;
-
-
-
+  align-items: center;
+  color: navy;
 }
