@@ -1,171 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+ 
+  <body>
+    <header>
+      <h1>Michael Atee</h1>
 
-</head>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#about-me">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services-offered">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects-executed">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#client-reviews">Reviews</a>
+            </li>
 
+            <li class="nav-item">
+              <a class="nav-link" href="#my-blogs">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
+    <!-- hero banner-->
 
-<body>
-
-<Header>
-<h1>Michael Atee</h1>
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-           
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-              
-                <li class="nav-item">
-                    <a class="nav-link" href="#about-me">About Me</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#services-offered">Services</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#projects-executed">Projects</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#client-reviews">Reviews</a>
-                <li class="nav-item">
-                    <a class="nav-link" href="#my-blogs">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact Me</a>
-                </li>
-
-              </ul>
-            </div>
-          </nav>
-
-</Header> 
-
-<!-- hero banner-->
-
-<div class="jumbotron">
-    
-    <h1 class="display-4"><strong>“We love what we do, and we do what our clients love & work with great clients all over the world to create thoughtful and purposeful websites.”
-        ― ProWeb365</strong></h1>
-    <p class="lead"></p>
-    <hr class="my-4">
-    <p></p>
-    <a class="btn btn-primary btn-lg" href="#" role="button">Let me help you</a>
-  </div>
-
-<!-- Portfolio Section about myself - an introduction-->
-<Section class="container-fluid">
-<h2 class="portfolio-title" id="about-me">About Me</h2>
-Hi, I am Michael, an aspiring front-end developer with focus on Web Design, Search Engine Optimisation and Digital Marketing. You can count on me to make your project a success, no matter what your requirements are.
-</Section>
-
-<!-- Portfolio section about services offered-->
-<section class="container-fluid">
-<h2 class="portfolio-title" id="services-offered">Services</h2>
-
-<div class="card-group">
-    <div class="card">
-      <img src="./images/Web creation.jpg" class="card-img-top" alt="photo of web design icons">
-      <div class="card-body">
-        <h5 class="card-title">Website Creation</h5>
-        <p class="card-text">Coming soon...</p>
-        
-      </div>
+    <div class="jumbotron">
+      <h1 class="display-4">
+        <strong
+          >“We love what we do, and we do what our clients love & work with
+          great clients all over the world to create thoughtful and purposeful
+          websites.” ― ProWeb365</strong
+        >
+      </h1>
+      <p class="lead"></p>
+      <hr class="my-4" />
+      <p></p>
+      <a class="btn btn-primary btn-lg" href="#" role="button"
+        >Let me help you</a
+      >
     </div>
-    <div class="card">
-      <img src="./images/SEO-Best-practices-.png" class="card-img-top" alt="photo of SEO">
-      <div class="card-body">
-        <h5 class="card-title">SEO Best Practices</h5>
-        <p class="card-text">Coming soon...</p>
+
+    <!-- Portfolio Section about myself - an introduction-->
+    <section class="container-1">
+      <h2 class="portfolio-title" id="about-me">About Me</h2>
+      <div class="card" style="width: 18rem">
+        <img
+          src="./images/img-aboutme.PNG"
+          class="card-img-top"
+          alt="photo of Michael"
+        />
+        <div class="card-body">
+          <p class="card-text">
+            Hi, I am Michael, an aspiring front-end developer with focus on Web
+            Design, Search Engine Optimisation and Digital Marketing. You can
+            count on me to make your project a success, no matter what your
+            requirements are.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio section about services offered-->
+    <section class="container-fluid">
+      <h2 class="portfolio-title" id="services-offered">Services</h2>
+
+      <div class="card-group">
+        <div class="card">
+          <img
+            src="./images/Web creation.jpg"
+            class="card-img-top"
+            alt="photo of web design icons"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Website Creation</h5>
+            <p class="card-text">Coming soon...</p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./images/SEO-Best-practices-.png"
+            class="card-img-top"
+            alt="photo of SEO"
+          />
+          <div class="card-body">
+            <h5 class="card-title">SEO Best Practices</h5>
+            <p class="card-text">Coming soon...</p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./images/Content-management.png"
+            class="card-img-top"
+            alt="Photo of content management text"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Content Management</h5>
+            <p class="card-text">Coming soon...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- hero banner-->
+    <section class="container-fluid">
+      <h2 class="portfolio-title" id="projects-executed">Projects</h2>
+
+      <div class="card-group">
+        <div class="card">
+          <img
+            src="./images/Web deployment.jpg"
+            class="card-img-top"
+            alt="photo of web deployment via github"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Web Deployment</h5>
+            <p class="card-text">Coming soon...</p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./images/Code Refactor.jpg"
+            class="card-img-top"
+            alt="refactor photo"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Code Refactoring</h5>
+            <p class="card-text">Coming soon...</p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./images/ux design.jpg"
+            class="card-img-top"
+            alt="Photo showing UX design components"
+          />
+          <div class="card-body">
+            <h5 class="card-title">UX Designs</h5>
+            <p class="card-text">Coming soon...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio section about reviews from clients -->
+    <section class="container-1">
+      <h2 class="portfolio-title" id="client-reviews">Reviews</h2>
+      <div class="card" style="width: 18rem">
+        <img
+          src="./images/reviews.png"
+          class="card-img-top"
+          alt="photo of Michael"
+        />
+        <div class="card-body">
+          <p class="card-text">
+            Coming soon..</p>
+        </div>
+        </div>
+    
+    </section>
+
+    <!-- Portfolio section about blogs published -->
+    <section class="container-1">
+      <h2 class="portfolio-title" id="my-blogs">Blog</h2>
+      <div class="card" style="width: 18rem">
+        <img
+          src="./images/blog.jpg"
+          class="card-img-top"
+          alt="photo of Michael"
+        />
+        <div class="card-body">
+          <p class="card-text">
+            Coming soon..</p>
+        </div>
+      </div>
       
+    </section>
+
+    <!-- Portfolio section about contacts -->
+    <section class="container-fluid">
+      <h2 class="portfolio-title" id="contact">Contact Me</h2>
+      <div>
+        Kindly reach out… Let’s have some tea together and discuss how best I
+        can help you
       </div>
-    </div>
-    <div class="card">
-      <img src="./images/Content-management.png" class="card-img-top" alt="Photo of content management text">
-      <div class="card-body">
-        <h5 class="card-title">Content Management</h5>
-        <p class="card-text">Coming soon...</p>
-        
+      <div>
+        <ul>
+          <li><a href="#">+44(0)7700000000</a></li>
+          <li><a href="www.github.com">GITHUB</a></li>
+          <li><a href="www.yahoo.com">Email</a></li>
+          <li><a href="www.linkedin.com">Linkedin</a></li>
+          <li><a href="www.facebook.com">Facebook</a></li>
+          <li><a href="www.twitter.com">Twitter</a></li>
+        </ul>
       </div>
-    </div>
-  </div>
-</Section>
+    </section>
 
-<!-- hero banner-->
-<section class="container-fluid">
-<h2 class="portfolio-title" id="projects-executed">Projects</h2>
-
-<div class="card-group">
-    <div class="card">
-      <img src="./images/Web deployment.jpg" class="card-img-top" alt="photo of web deployment via github">
-      <div class="card-body">
-        <h5 class="card-title">Web Deployment</h5>
-        <p class="card-text">Coming soon...</p>
-        
-      </div>
-    </div>
-    <div class="card">
-      <img src="./images/Code Refactor.jpg" class="card-img-top" alt="refactor photo">
-      <div class="card-body">
-        <h5 class="card-title">Code Refactoring</h5>
-        <p class="card-text">Coming soon...</p>
-        
-      </div>
-    </div>
-    <div class="card">
-      <img src="./images/ux design.jpg" class="card-img-top" alt="Photo showing UX design components">
-      <div class="card-body">
-        <h5 class="card-title">UX Designs</h5>
-        <p class="card-text">Coming soon...</p>
-       
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Portfolio section about reviews from clients -->
-<section class="container-fluid">
-  <h2 class="portfolio-title" id="client-reviews">Reviews</h2>
-  <p>Coming soon..</p>
-</section>
-
-<!-- Portfolio section about blogs published -->
-<section class="container-fluid">
-    <h2 class="portfolio-title" id="my-blogs">Blog</h2>
-<p>Coming soon</p>
-</section>
-    
-<!-- Portfolio section about contacts -->
-<section class="container-fluid">
-    <h2 class="portfolio-title" id="contact">Contact Me</h2>
-<div>Kindly reach out… Let’s have some tea together and discuss how best I can help you</div> 
-<div>
-<ul>
-  <li><a href="#">+44(0)7700000000</a></li>
-  <li><a href="www.github.com">GITHUB</a></li>
-  <li><a href="www.yahoo.com">Email</a></li>
-  <li><a href="www.linkedin.com">Linkedin</a></li>
-  <li><a href="www.facebook.com">Facebook</a></li>
-  <li><a href="www.twitter.com">Twitter</a></li>
-</ul>
-
-</div>   
-</section>
-
-
-
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
