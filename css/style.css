@@ -1,14 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+background-color:212529;
+font-weight:300;
+color: ;
+
+}
+
+
 .jumbotron {
-  padding: 0;
-  background-image: url(../images/02-hero-bg.jpg);
-  background-repeat: no-repeat;
-  max-width: fit-content;
-  color: rgb(89, 42, 165);
+  width: 100%;
+  height: auto;
+  background-image: url(../images/happy-customer-satisfaction.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(254, 254, 255);
   font-weight: 300;
   font-style: oblique;
+  ;
 }
 
 h2 {
   align-items: center;
   color: navy;
+}
+
+
+.container-1 {
+display: flex;
+margin: 50px;
+
+
+
 }
