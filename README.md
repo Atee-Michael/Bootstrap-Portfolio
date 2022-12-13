@@ -19,7 +19,7 @@ You can access my portfolio via https://mycawesome.github.io/Bootstrap-Portfolio
 ### 5. Blog
 Presents articles or publications from me.
 ### 6. Contact Me
-    Cosists of my contacts and social media details for professional work.
+    Consists of my contacts and social media details for professional work.
 
 # Credits
 Not applicable
